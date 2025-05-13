@@ -15,6 +15,9 @@ You can manage the places and categories easily, and the website is responsive a
 - **Add New Place**: Admins can add new places to the platform.
 - **Contact & Booking**: Users can contact the team or make a booking inquiry for travel assistance.
 
+## Live Demo
+You can view the live demo of the project here: [Around the World Live Demo](https://around-the-world-drab.vercel.app/)
+
 ## Installation
 
 To run the project locally:
