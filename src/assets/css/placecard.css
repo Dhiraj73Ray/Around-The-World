@@ -1,0 +1,32 @@
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px 40px;
+}
+
+.place-card {
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.place-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.place-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.place-card h3 {
+    font-size: 18px;
+    margin: 12px 0;
+    color: #333;
+}

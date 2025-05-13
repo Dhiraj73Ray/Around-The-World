@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.notfound{
+    display: flex;
+    height: 100px;
+    
+}
+
+.notfound .backbutton{
+    margin-top: 10px;
+}
+
+.notfound .not{
+    position: relative;
+    left: 500px;
+    align-self: center;
+
+}

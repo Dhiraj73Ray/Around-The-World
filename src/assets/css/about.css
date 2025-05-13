@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.add-btn{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 230px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    height: 50px;
+    border-radius: 6px;
+    box-shadow: none;
+    /* border-style: none; */
+    background-color: rgb(51, 255, 0);
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.add-place-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.add-place-form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #343a40;
+}
+
+.add-place-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-place-form input[type="text"],
+.add-place-form input[type="number"],
+.add-place-form input[type="file"],
+.add-place-form textarea,
+.add-place-form select {
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.3s;
+}
+
+.add-place-form input[type="text"]:focus,
+.add-place-form input[type="number"]:focus,
+.add-place-form textarea:focus,
+.add-place-form select:focus {
+  border-color: #495057;
+  outline: none;
+}
+
+.add-place-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.add-place-form button {
+  padding: 12px;
+  background-color: #198754;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-place-form button:hover {
+  background-color: #157347;
+}

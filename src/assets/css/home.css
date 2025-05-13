@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.myhomepage{
+    border: 1px solid black;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1a1a1a;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo a:hover{
+    color: #00ffd5;
+}
+
+
+.nav-links a {
+    color: white;
+    position: relative;
+    left: -50px;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00ffd5;
+}
+
+
+/* Main section styles */
+.main-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 85vh;
+    color: black;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* Pseudo-element for background image */
+.main-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../images/homepage/bg.jpg') no-repeat center/cover;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 150px;
+    flex: 1;
+    width: 500px;
+}
+
+.content h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.5em;
+    width: 850px;
+}
+
+.Ex-btn{
+    position: relative;
+    top: 250px;
+    width: 160px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    height: 60px;
+    border-radius: 6px;
+    box-shadow: none;
+    /* border-style: none; */
+    background-color: rgb(51, 255, 0);
+}
+
+.addbtn1{
+    position: relative;
+    top: 250px;
+    left: 10px;
+    width: 250px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    height: 60px;
+    border-radius: 6px;
+    box-shadow: none;
+    /* border-style: none; */
+    background-color: rgb(51, 255, 0);
+}
+
+.image-card {
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    /* background-color: red; */
+    background-image: url('../images/homepage/door.png');
+    background-size: cover; /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+    height: 650px;
+    width: 450px;
+    display: flex;
+    position: relative;
+    right: 100px;
+    flex-direction: column;
+
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #111;
+    color: #eee;
+    padding: 40px 20px 20px;
+    font-size: 0.95em;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: 150px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h3, .footer h4 {
+    margin-bottom: 10px;
+    color: #00ffd5;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    /* flex: 1; */
+    min-width: 220px;
+}
+
+.footer-about a{
+    text-decoration: none;
+    color: #00ffd5;
+}
+
+.footer-contact a{
+    text-decoration: none;
+    color: #00ffd5;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #eee;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #00ffd5;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    font-size: 0.9em;
+}

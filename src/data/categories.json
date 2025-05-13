@@ -1,0 +1,504 @@
+[
+  {
+    "id": "beaches",
+    "slug": "beaches",
+    "title": "Beaches",
+    "description": "Soothing sands and crashing waves. Explore the most stunning beaches on Earth.",
+    "image": "/images/Categories/beach.jpg",
+    "places": [
+      {
+        "id": "goa",
+        "name": "Goa",
+        "image": "/assets/images/places/goa.jpg",
+        "description": "Known for its pristine beaches and vibrant nightlife.",
+        "price": 200,
+        "budget": 1500,
+        "routes": "Fly to Goa International Airport",
+        "hotels": [
+          "Taj Holiday Village",
+          "The Leela Goa",
+          "Radisson Blu Resort"
+        ],
+        "rules": [
+          "No alcohol on the beach after 8 PM",
+          "Keep the beach clean"
+        ],
+        "reviews": [
+          {
+            "user": "Amit",
+            "comment": "Perfect place to relax and unwind."
+          },
+          {
+            "user": "Maya",
+            "comment": "The nightlife is amazing!"
+          }
+        ]
+      },
+      {
+        "id": "bali",
+        "name": "Bali",
+        "image": "/assets/images/places/bali.jpg",
+        "description": "A tropical paradise with beautiful beaches and lush greenery.",
+        "price": 350,
+        "budget": 2500,
+        "routes": "Fly to Ngurah Rai International Airport",
+        "hotels": [
+          "Four Seasons Resort Bali",
+          "The St. Regis Bali Resort",
+          "Bali Dynasty Resort"
+        ],
+        "rules": [
+          "Respect local customs and traditions",
+          "No littering on the beaches"
+        ],
+        "reviews": [
+          {
+            "user": "John",
+            "comment": "Bali is a heaven for beach lovers."
+          },
+          {
+            "user": "Priya",
+            "comment": "The perfect getaway!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mountains",
+    "slug": "mountains",
+    "title": "Mountains",
+    "description": "Experience the grandeur of Earth's tallest natural wonders.",
+    "image": "/images/Categories/mountains.jpg",
+    "places": [
+      {
+        "id": "himalayas",
+        "name": "Himalayas",
+        "image": "/assets/images/places/himalayas.jpg",
+        "description": "A majestic mountain range that offers challenging treks and breathtaking views.",
+        "price": 600,
+        "budget": 5000,
+        "routes": "Fly to Kathmandu, then drive to the base camp",
+        "hotels": [
+          "Everest View Hotel",
+          "Hotel Yak & Yeti",
+          "Kathmandu Marriott Hotel"
+        ],
+        "rules": [
+          "Acclimatization is essential",
+          "Follow the trekking route"
+        ],
+        "reviews": [
+          {
+            "user": "Raj",
+            "comment": "The views from the top are absolutely stunning!"
+          },
+          {
+            "user": "Emily",
+            "comment": "A challenging but rewarding trek."
+          }
+        ]
+      },
+      {
+        "id": "rockies",
+        "name": "Rockies",
+        "image": "/assets/images/places/rockies.jpg",
+        "description": "A mountain range in North America known for its rugged terrain and outdoor activities.",
+        "price": 450,
+        "budget": 3500,
+        "routes": "Fly to Denver, then rent a car to access different parks",
+        "hotels": [
+          "The Stanley Hotel",
+          "Aspen Meadows Resort",
+          "Rocky Mountain Resort"
+        ],
+        "rules": [
+          "Carry enough water and supplies",
+          "Respect wildlife and stay on marked trails"
+        ],
+        "reviews": [
+          {
+            "user": "Michael",
+            "comment": "Perfect for outdoor adventures like hiking and skiing."
+          },
+          {
+            "user": "Sophia",
+            "comment": "The Rockies offer some of the most scenic hikes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "histories",
+    "slug": "histories",
+    "title": "Historic Places",
+    "description": "Walk through the echoes of time in the world's most historic landmarks.",
+    "image": "/images/Categories/historical.jpg",
+    "places": [
+      {
+        "id": "machupicchu",
+        "name": "Machu Picchu",
+        "image": "/assets/images/Places/histories/machu.jpg",
+        "description": "An ancient Inca city set high in the Andes mountains of Peru.",
+        "price": 400,
+        "budget": 3000,
+        "routes": "Fly to Cusco, then take a train to Aguas Calientes",
+        "hotels": [
+          "Hotel Sanctuary Lodge",
+          "Inkaterra Machu Picchu Pueblo",
+          "Belmond Palacio Nazarenas"
+        ],
+        "rules": [
+          "No touching the stones",
+          "Stay on marked paths"
+        ],
+        "reviews": [
+          {
+            "user": "Juan",
+            "comment": "An awe-inspiring archaeological site!"
+          },
+          {
+            "user": "Linda",
+            "comment": "The beauty and history are beyond words."
+          }
+        ]
+      },
+      {
+        "id": "colosseum",
+        "name": "Colosseum",
+        "image": "/assets/images/Places/histories/colosseum.jpg",
+        "description": "A massive amphitheater in Rome, Italy, known for ancient gladiator battles.",
+        "price": 100,
+        "budget": 1500,
+        "routes": "Fly to Rome, then take a metro or taxi to the Colosseum",
+        "hotels": [
+          "Hotel Palazzo Manfredi",
+          "The Colosseum Hotel",
+          "Rome Cavalieri, A Waldorf Astoria Hotel"
+        ],
+        "rules": [
+          "No climbing on the ruins",
+          "Respect the ancient artifacts"
+        ],
+        "reviews": [
+          {
+            "user": "Giovanni",
+            "comment": "The Colosseum is a must-see for history lovers."
+          },
+          {
+            "user": "Olivia",
+            "comment": "An iconic and incredible place to visit."
+          }
+        ]
+      },
+      {
+        "id": "tajmahal",
+        "name": "Taj Mahal",
+        "image": "/images/Places/taj.jpg",
+        "description": "One of the Seven Wonders of the World, built in memory of a queen.",
+        "price": 500,
+        "budget": 2500,
+        "routes": "Fly to Agra, then local taxi or bus",
+        "hotels": [
+          "Hotel Amar",
+          "Taj View",
+          "OYO Agra Inn"
+        ],
+        "rules": [
+          "No photography inside tomb",
+          "Open sunrise to sunset"
+        ],
+        "reviews": [
+          {
+            "user": "Ankit",
+            "comment": "Amazing monument!"
+          },
+          {
+            "user": "Sara",
+            "comment": "A breathtaking experience."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "underwater",
+    "slug": "underwater",
+    "title": "Underwater",
+    "description": "Dive deep and discover surreal marine adventures and ocean beauty.",
+    "image": "/images/Categories/underwater1.jpg",
+    "places": [
+      {
+        "id": "reef",
+        "name": "Great Barrier Reef",
+        "image": "/images/Categories/Underwater/reef.jpg",
+        "description": "The world's largest coral reef system, home to diverse marine life.",
+        "price": 700,
+        "budget": 5000,
+        "routes": "Fly to Cairns, then take a boat to the reef",
+        "hotels": [
+          "Reef House",
+          "Cairns Marriott Resort",
+          "Port Douglas Hotel"
+        ],
+        "rules": [
+          "No touching the coral",
+          "Respect the marine life"
+        ],
+        "reviews": [
+          {
+            "user": "Emma",
+            "comment": "Incredible underwater experience!"
+          },
+          {
+            "user": "Daniel",
+            "comment": "A must-visit for any marine lover."
+          }
+        ]
+      },
+      {
+        "id": "bluehole",
+        "name": "Blue Hole, Belize",
+        "image": "/images/Categories/Underwater/bluehole.jpg",
+        "description": "A giant marine sinkhole in Belize, famous for diving and snorkeling.",
+        "price": 600,
+        "budget": 4000,
+        "routes": "Fly to Belize City, then take a boat to the Blue Hole",
+        "hotels": [
+          "Coco Beach Resort",
+          "Belizean Shores Resort",
+          "Radisson Fort George Hotel"
+        ],
+        "rules": [
+          "Do not disturb the marine life",
+          "Only dive with licensed guides"
+        ],
+        "reviews": [
+          {
+            "user": "Lucas",
+            "comment": "One of the best diving spots in the world."
+          },
+          {
+            "user": "Natalie",
+            "comment": "A surreal experience underwater."
+          }
+        ]
+      },
+      {
+        "id": "maldives",
+        "name": "Maldives Diving",
+        "image": "/images/Categories/Underwater/Maldives.jpg",
+        "description": "Experience vibrant coral reefs and diverse marine life in the Maldives.",
+        "price": 800,
+        "budget": 6000,
+        "routes": "Fly to Malé, then take a boat to the dive sites",
+        "hotels": [
+          "Soneva Fushi",
+          "Conrad Maldives",
+          "Anantara Veli Maldives Resort"
+        ],
+        "rules": [
+          "Respect the coral reefs",
+          "Follow the dive guidelines"
+        ],
+        "reviews": [
+          {
+            "user": "Carlos",
+            "comment": "The diving here is out of this world!"
+          },
+          {
+            "user": "Laura",
+            "comment": "Amazing marine biodiversity!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adventure",
+    "slug": "sky-adventures",
+    "title": "Sky Adventures",
+    "description": "Fly high with thrilling activities like skydiving, paragliding, and more.",
+    "image": "/images/Categories/skyadv2.jpg",
+    "places": [
+      {
+        "id": "dubaisky",
+        "name": "Dubai Skydiving",
+        "image": "/assets/images/Places/adventure/dubai.jpg",
+        "description": "Experience the thrill of skydiving over the Palm Jumeirah.",
+        "price": 350,
+        "budget": 2500,
+        "routes": "Fly to Dubai, then go to the skydiving center",
+        "hotels": [
+          "Atlantis The Palm",
+          "Jumeirah Beach Hotel",
+          "Burj Al Arab"
+        ],
+        "rules": [
+          "Weight restrictions apply",
+          "Pre-skydiving training is mandatory"
+        ],
+        "reviews": [
+          {
+            "user": "Ahmed",
+            "comment": "An unforgettable adrenaline rush!"
+          },
+          {
+            "user": "Olivia",
+            "comment": "A must-do for adventure seekers."
+          }
+        ]
+      },
+      {
+        "id": "swissalps",
+        "name": "Swiss Alps Paragliding",
+        "image": "/assets/images/Places/adventure/swiss.jpg",
+        "description": "Soar through the skies above the stunning Swiss Alps.",
+        "price": 300,
+        "budget": 2000,
+        "routes": "Fly to Zurich, then drive to the paragliding launch site",
+        "hotels": [
+          "Badrutt's Palace Hotel",
+          "Hotel Kulm",
+          "The Chedi Andermatt"
+        ],
+        "rules": [
+          "Paragliding is weather-dependent",
+          "Wear appropriate gear"
+        ],
+        "reviews": [
+          {
+            "user": "Max",
+            "comment": "A breathtaking experience in the Alps!"
+          },
+          {
+            "user": "Sophie",
+            "comment": "Flying over the mountains was surreal."
+          }
+        ]
+      },
+      {
+        "id": "hawaii",
+        "name": "Hawaii Helicopter Tour",
+        "image": "/assets/images/Places/adventure/hawaii.jpg",
+        "description": "Take a helicopter tour over the volcanic landscapes of Hawaii.",
+        "price": 250,
+        "budget": 1500,
+        "routes": "Fly to Honolulu, then take the helicopter tour",
+        "hotels": [
+          "The Royal Hawaiian",
+          "Aulani, A Disney Resort & Spa",
+          "Four Seasons Resort Oahu"
+        ],
+        "rules": [
+          "Weight restrictions apply",
+          "Wear comfortable clothing"
+        ],
+        "reviews": [
+          {
+            "user": "David",
+            "comment": "The view from the helicopter was amazing."
+          },
+          {
+            "user": "Emily",
+            "comment": "A thrilling experience."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "modern",
+    "slug": "modern-cities",
+    "title": "Modern Cities",
+    "description": "Explore futuristic architecture and vibrant life in the most modern cities.",
+    "image": "/images/Categories/modern1.jpg",
+    "places": [
+      {
+        "id": "tokyocity",
+        "name": "Tokyo",
+        "image": "/assets/images/Places/modern/tokyo.jpg",
+        "description": "A bustling metropolis known for its technology, culture, and vibrant nightlife.",
+        "price": 700,
+        "budget": 5000,
+        "routes": "Fly to Narita International Airport",
+        "hotels": [
+          "The Peninsula Tokyo",
+          "Shangri-La Hotel Tokyo",
+          "Hotel New Otani Tokyo"
+        ],
+        "rules": [
+          "No littering",
+          "Respect local customs"
+        ],
+        "reviews": [
+          {
+            "user": "Tom",
+            "comment": "Tokyo is a blend of tradition and technology."
+          },
+          {
+            "user": "Hiro",
+            "comment": "The city is always alive with energy."
+          }
+        ]
+      },
+      {
+        "id": "dubaicity",
+        "name": "Dubai",
+        "image": "/assets/images/Places/modern/dubai.jpg",
+        "description": "A futuristic city known for its towering skyscrapers and luxury shopping.",
+        "price": 800,
+        "budget": 6000,
+        "routes": "Fly to Dubai International Airport",
+        "hotels": [
+          "Burj Al Arab",
+          "Atlantis The Palm",
+          "Jumeirah Beach Hotel"
+        ],
+        "rules": [
+          "Dress modestly in public",
+          "Respect Islamic customs"
+        ],
+        "reviews": [
+          {
+            "user": "Jack",
+            "comment": "Dubai's skyline is impressive."
+          },
+          {
+            "user": "Laila",
+            "comment": "The shopping experience is unbeatable."
+          }
+        ]
+      },
+      {
+        "id": "newyorkcity",
+        "name": "New York",
+        "image": "/assets/images/Places/modern/ny.jpg",
+        "description": "The city that never sleeps, known for its iconic landmarks and cultural diversity.",
+        "price": 600,
+        "budget": 4500,
+        "routes": "Fly to JFK International Airport",
+        "hotels": [
+          "The Plaza Hotel",
+          "Hotel Pennsylvania",
+          "The Greenwich Hotel"
+        ],
+        "rules": [
+          "Stay on pedestrian paths",
+          "Respect the noise ordinances"
+        ],
+        "reviews": [
+          {
+            "user": "George",
+            "comment": "New York is a city full of life and opportunities."
+          },
+          {
+            "user": "Emma",
+            "comment": "Amazing city to visit, so much to see!"
+          }
+        ]
+      }
+    ]
+  }
+]

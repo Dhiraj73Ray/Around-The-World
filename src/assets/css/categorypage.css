@@ -1,0 +1,42 @@
+.category-page {
+    font-family: 'Segoe UI', sans-serif;
+    padding-bottom: 40px;
+}
+
+.category-banner {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
+}
+
+.category-banner h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.category-banner p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+
+.addbtn{
+    position: relative;
+    top: 20px;
+    left: 1350px;
+    width: 150px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: none;
+    /* border-style: none; */
+    background-color: rgb(51, 255, 0);
+}

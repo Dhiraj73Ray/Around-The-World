@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.place-detail {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.banner {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.detail-content {
+  padding: 30px 50px;
+  background-color: #f9f9f9;
+}
+
+.detail-content section {
+  margin-bottom: 30px;
+}
+
+.detail-content ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-card {
+  padding: 10px 15px;
+  background-color: white;
+  border-left: 4px solid #007bff;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
